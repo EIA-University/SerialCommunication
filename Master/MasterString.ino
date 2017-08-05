@@ -38,7 +38,7 @@ void builtWord(String msg){
 void enviar() {
   lcd.clear();
   //Serial.print(mensaje);
-  Serial.println(mensaje);
+  Serial.print(mensaje);
   lcd.print(mensaje);
   mensaje = "";
   delay(50);
